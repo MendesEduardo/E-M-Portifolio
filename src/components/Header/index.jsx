@@ -13,19 +13,19 @@ function Header() {
                     <h1>Edüardo Mendës</h1>
                     <p>Sou um desenvolvedor de software front-end</p>
                     <nav>
-                        <MenuLink to="/">
+                        <MenuLink to="">
                             Home
                         </MenuLink>
-                        <MenuLink to="/sobre">
+                        <MenuLink to="sobre">
                             Sobre
                         </MenuLink>
-                        <MenuLink to="/servicos">
+                        <MenuLink to="servicos">
                             Serviços
                         </MenuLink>
-                        <MenuLink to="/projetos">
+                        <MenuLink to="projetos">
                             Projetos
                         </MenuLink>
-                        <MenuLink to="/contato">
+                        <MenuLink to="contato">
                             Contato
                         </MenuLink>
                     </nav>

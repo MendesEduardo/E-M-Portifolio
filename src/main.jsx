@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Routes from './Routes.js';
+import Routes from './routes';
 import './style/index.scss';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
