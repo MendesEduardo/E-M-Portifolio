@@ -1,0 +1,17 @@
+.modalInfo {
+  font-size: 45px;
+  color: var(--white);
+  cursor: pointer;
+}
+.modal {
+  background-color: var(--white);
+  margin: 5em;
+  border: 5px solid var(--purple);
+}
+
+.descriptionModal {
+  padding: 2em;
+  color: var(--black);
+  font-size: 30px;
+  font-weight: 700;
+}

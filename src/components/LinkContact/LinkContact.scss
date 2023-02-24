@@ -1,0 +1,40 @@
+.linkContact {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 2em;
+  width: 49%;
+  height: 120px;
+  background-color: var(--gray-opacity);
+  transition: all 0.7s ease;
+
+  &:hover {
+    background-color: var(--purple);
+    p,
+    i {
+      color: var(--black);
+    }
+  }
+
+  i {
+    font-size: 90px;
+    padding: 0.3em 0 0 0.5em;
+    color: var(--purple);
+  }
+
+  p {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--gray);
+  }
+}
+
+@media (max-width: 800px) {
+  .linkContact {
+    width: 100%;
+    gap: 1em;
+    .dadosContact {
+      font-size: 10px;
+    }
+  }
+}

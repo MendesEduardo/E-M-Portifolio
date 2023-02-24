@@ -1,0 +1,11 @@
+.contact {
+  background-color: var(--bg-global);
+  padding: 1em;
+
+  .contactLink {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+}

@@ -1,0 +1,36 @@
+.menuLink {
+  text-decoration: none;
+  color: var(--white);
+  position: relative;
+  display: inline-block;
+  margin: 0 1em 0 0;
+  padding: 0.2em 0;
+  font-size: 20px;
+}
+
+.menuLink::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: 100%;
+  width: 0;
+  height: 3px;
+  background-color: var(--purple);
+  transition: width 0.3s ease-out, right 0.3s ease-out;
+}
+
+.menuLink:hover::before {
+  right: 0;
+  width: 100%;
+}
+
+.highlighted::before {
+  right: 0;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .menuLink{
+    font-size: 90%;
+  }
+}

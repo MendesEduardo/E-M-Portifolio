@@ -1,0 +1,11 @@
+.projects {
+  background-color: var(--bg-global);
+  padding: 0 1em 2em 1em;
+
+  .cardsProject {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2em;
+  }
+}

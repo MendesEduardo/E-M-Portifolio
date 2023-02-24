@@ -1,0 +1,45 @@
+@import "./_Variabes";
+
+:root {
+  color-scheme: light dark;
+  color: var(--white);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-family: var(--font-text);
+  overflow-x: hidden;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding: 0 0 1em 0;
+  font-size: 30px;
+}
+
+body::-webkit-scrollbar {
+  width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--purple);
+  border-radius: 2em;
+}
+
+body::-webkit-scrollbar-track {
+  background: linear-gradient(var(--blue), var(--purple));
+}

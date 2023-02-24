@@ -1,0 +1,65 @@
+[
+    {
+        "id": 0,
+        "title": "Alura geek",
+        "image": "assets/alurageek.jpg",
+        "link": "https://alurageek-challenge-beta.vercel.app/",
+        "info": "Desafio Front-End 5ª Edição Alura!"
+    },
+    {
+        "id": 1,
+        "title": "Turismo espacial",
+        "image": "assets/space.jpg",
+        "link": "https://space-tourism-multi-page-two.vercel.app/",
+        "info": "Desafio Frontend Mentor de múltiplas páginas usando o react-router-dom!"
+    },
+    {
+        "id": 2,
+        "title": "Rock Paper Scissors Lizard Spock",
+        "image": "assets/rock-paper-scissors.jpg",
+        "link": "https://rock-paper-scissors-smoky-iota.vercel.app/",
+        "info": " Jogo de Rock, Paper, Scissors, Lizard, Spock: desafio do Frontend Mentor!"
+    },
+    {
+        "id": 3,
+        "title": "Fylo com tema escuro",
+        "image": "assets/fylo.jpg",
+        "link": "https://fylo-landing-page-chi-ruddy.vercel.app/",
+        "info": "Desafio Frontend Mentor landing page com tema escuro!"
+    },
+    {
+        "id": 4,
+        "title": "Easybank landing page",
+        "image": "assets/easybank.jpg",
+        "link": "https://easy-bank-bice.vercel.app/",
+        "info": "Desafio Frontend Mentor página inicial do Easybank!"
+    },
+    {
+        "id": 5,
+        "title": "Gerador de conselhos",
+        "image": "assets/advice-generator.jpg",
+        "link": "https://mendeseduardo.github.io/Advice_generator_app/",
+        "info": "Desafio Frontend Mentor consumindo uma API geradora de conselhos!"
+    },
+    {
+        "id": 6,
+        "title": "API de encurtamento de URL",
+        "image": "assets/url-shortening-api.jpg",
+        "link": "https://shortly-url-shortening-api-3y6l-f7d2dftlw-mendeseduardo.vercel.app/",
+        "info": "Desafio Frontend Mentor consumindo uma API que encurta links!"
+    },
+    {
+        "id": 7,
+        "title": "NLW 10 Copa",
+        "image": "assets/nlw10copa.jpg",
+        "link": "https://mendeseduardo.github.io/Rocketseat_nlw_copa/",
+        "info": "Nlw Rocketseat calendario de jogos da copa 2022!"
+    },
+    {
+        "id": 8,
+        "title": "Calculadora de gorjetas",
+        "image": "assets/tip-calculator.jpg",
+        "link": "https://mendeseduardo.github.io/Tip-calculator-app/",
+        "info": "Desafio Frontend Mentor Calculando gorjetas!"
+    }
+]

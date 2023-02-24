@@ -1,0 +1,39 @@
+.skills {
+  display: flex;
+  width: 30%;
+  height: 120px;
+  background-color: var(--gray-opacity);
+  transition: all 0.7s ease;
+  &:hover{
+    transform: scale(1.1);
+  }
+
+  i{
+    font-size: 52px;
+    padding:0 0 0 0.5em;
+    color: var(--purple);
+  }
+
+  .text-skills {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+  }
+
+  p {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: var(--gray);
+  }
+}
+
+
+@media (max-width: 800px) {
+  .skills{
+    .text-skills{
+      p{
+        display: none;
+      }
+    }
+  }
+}
