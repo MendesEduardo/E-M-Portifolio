@@ -14,7 +14,7 @@ function About() {
         <h2>Um pouco sobre mim</h2>
         <article className='info-about'>
           <div className='image-about'>
-            <img src={dev} alt="" />
+            <img src={dev} alt="Perfil" />
           </div>
           <div className='resume'>
             <h3>Desenvolvedor de Software Front-end</h3>
