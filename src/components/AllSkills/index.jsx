@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import Skills from '../Skills';
 import {
     SiHtml5,
@@ -11,8 +12,14 @@ import { FaSass } from "react-icons/fa";
 import "./AllSkills.scss";
 
 function AllSkills() {
+    const [show, setShow] = useState(false);
+
+    useEffect(() => {
+      setShow(true);
+    }, []);
+  
     return (
-        <section className='allSkills'>
+        <section className={`allSkills ${show ? "show" : ""}`}>
             <Skills icon={<SiHtml5 />}>
                 html
             </Skills>

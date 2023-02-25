@@ -14,4 +14,21 @@
   --black: #030303;
 
   --font-text: "Poppins", sans-serif;
+
+  --varSlideShow: slideShow;
+
+  --animationDuration: 1s;
+  --animationCount: 1;
+  --animationMode: both;
+
+  @keyframes slideShow {
+    from {
+      transform: translateY(-50%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0%);
+      opacity: 1;
+    }
+  }
 }

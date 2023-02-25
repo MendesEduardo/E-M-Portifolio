@@ -4,5 +4,24 @@
   align-items: center;
   justify-content: center;
   gap: 2em;
-  padding: 5em 0;
+  transition: opacity 0.5s ease;
+
+  > * {
+    animation-name: var(--varSlideShow);
+    animation-duration: var(--animationDuration);
+    animation-iteration-count: var(--animationCount);
+    animation-fill-mode: var(--animationMode);
+  }
+
+  @for $i from 10 through length(&) {
+    > *:nth-child(#{$i}) {
+      animation-delay: (
+        0.5s + ($i - 1) * 1s
+      );
+    }
+  }
+}
+
+.allSkills > *.show {
+  opacity: 1;
 }

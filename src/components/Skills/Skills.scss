@@ -5,13 +5,17 @@
   background-color: var(--gray-opacity);
   transition: all 0.7s ease;
   &:hover{
-    transform: scale(1.1);
+    background-color: var(--purple);
+    i, p{
+      color: var(--black);
+    }
   }
 
   i{
     font-size: 52px;
     padding:0 0 0 0.5em;
     color: var(--purple);
+    transition: all 0.7s ease;
   }
 
   .text-skills {
@@ -24,15 +28,23 @@
     font-size: 24px;
     text-transform: uppercase;
     color: var(--gray);
+    transition: all 0.7s ease;
   }
 }
 
-
 @media (max-width: 800px) {
   .skills{
+    width: 40%;
+    justify-content: center;
     .text-skills{
+      flex-direction: column;
+      gap: 1em;
+      justify-content: center;
+      i{
+        padding: 0;
+      }
       p{
-        display: none;
+        font-size: 100%;
       }
     }
   }

@@ -7,5 +7,19 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
+    transition: all 2s ease-in;
+
+    > * {
+      animation-name: var(--varSlideShow);
+      animation-duration: var(--animationDuration);
+      animation-iteration-count: var(--animationCount);
+      animation-fill-mode: var(--animationMode);
+    }
+
+    @for $i from 10 through length(&) {
+      > *:nth-child(#{$i}) {
+        animation-delay: (0.5s + ($i - 1) * 1s);
+      }
+    }
   }
 }
