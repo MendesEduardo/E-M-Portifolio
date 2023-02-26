@@ -2,8 +2,9 @@
   padding: 2em 0;
   margin: 10em 0 1em 0;
   transition: margin-top 1s ease;
-  background-color: var(--black);
   animation-delay: 0.1s;
+  font-weight: 700;
+  filter: drop-shadow(5px 5px 5px var(--black));
 
   h1 {
     font-size: 54px;
@@ -14,6 +15,9 @@
   p {
     font-size: 32px;
     padding: 0.5em 0 1em 0;
+    span{
+      border-bottom: 2px solid var(--black);
+    }
   }
 
   nav {
@@ -36,6 +40,7 @@
 .top {
   margin-top: 0;
   background-color: var(--black);
+  color: var(--white);
 
   .innerHeader {
     display: flex;
@@ -54,6 +59,7 @@
 
 @media (max-width: 800px) {
   .header {
+    height: 80vh;
     nav {
       display: flex;
       justify-content: center;

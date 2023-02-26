@@ -1,4 +1,4 @@
-import dev from '../../assets/desenho.png';
+import dev from '../../assets/Ao.gif';
 import AllSkills from '../../components/AllSkills';
 import Container from '../../components/Container';
 import Marking from '../../components/Marking';
@@ -13,9 +13,7 @@ function About() {
         </Marking>
         <h2>Um pouco sobre mim</h2>
         <article className='info-about'>
-          
-            <img src={dev} alt="Perfil" />
-         
+          <img src={dev} alt="Perfil" />
           <div className='resume'>
             <h3>Desenvolvedor de Software Front-end</h3>
             <p>
