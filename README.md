@@ -17,6 +17,7 @@ Bem-vindo ao meu portfólio Frontend! Aqui estão alguns dos meus projetos mais 
 - Git
 - GitHub
 - Vercel
+- VS Code
 
 <br>
 
