@@ -16,7 +16,7 @@
       animation-fill-mode: var(--animationMode);
     }
 
-    @for $i from 10 through length(&) {
+    @for $i from 11 through length(&) {
       > *:nth-child(#{$i}) {
         animation-delay: (0.5s + ($i - 1) * 1s);
       }

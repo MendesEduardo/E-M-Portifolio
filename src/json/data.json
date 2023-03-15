@@ -22,41 +22,55 @@
     },
     {
         "id": 3,
+        "title": "API Rest de países",
+        "image": "assets/apiCoutries.jpg",
+        "link": "https://rest-countries-api-ten-zeta.vercel.app/",
+        "info": "Desafio Frontend Mentor API Rest de países com seletor de tema de cores!"
+    },
+    {
+        "id": 4,
+        "title": "Calculadora",
+        "image": "assets/calculadora.jpg",
+        "link": "https://calculator-app-eight-jet.vercel.app/",
+        "info": "Calculadora desenvolvida em react e typescript com seletor de tema de cores!"
+    },
+    {
+        "id": 5,
         "title": "Fylo com tema escuro",
         "image": "assets/fylo.jpg",
         "link": "https://fylo-landing-page-chi-ruddy.vercel.app/",
         "info": "Desafio Frontend Mentor landing page com tema escuro!"
     },
     {
-        "id": 4,
+        "id": 6,
         "title": "Easybank landing page",
         "image": "assets/easybank.jpg",
         "link": "https://easy-bank-bice.vercel.app/",
         "info": "Desafio Frontend Mentor página inicial do Easybank!"
     },
     {
-        "id": 5,
+        "id": 7,
         "title": "Gerador de conselhos",
         "image": "assets/advice-generator.jpg",
         "link": "https://mendeseduardo.github.io/Advice_generator_app/",
         "info": "Desafio Frontend Mentor consumindo uma API geradora de conselhos!"
     },
     {
-        "id": 6,
+        "id": 8,
         "title": "API de encurtamento de URL",
         "image": "assets/url-shortening-api.jpg",
         "link": "https://shortly-url-shortening-api-3y6l-f7d2dftlw-mendeseduardo.vercel.app/",
         "info": "Desafio Frontend Mentor consumindo uma API que encurta links!"
     },
     {
-        "id": 7,
+        "id": 9,
         "title": "NLW 10 Copa",
         "image": "assets/nlw10copa.jpg",
         "link": "https://mendeseduardo.github.io/Rocketseat_nlw_copa/",
         "info": "Nlw Rocketseat calendario de jogos da copa 2022!"
     },
     {
-        "id": 8,
+        "id": 10,
         "title": "Calculadora de gorjetas",
         "image": "assets/tip-calculator.jpg",
         "link": "https://mendeseduardo.github.io/Tip-calculator-app/",
