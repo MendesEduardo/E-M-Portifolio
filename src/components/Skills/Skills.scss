@@ -2,10 +2,12 @@
   display: flex;
   width: 30%;
   height: 120px;
+  font-weight: bold;
   background-color: var(--gray-opacity);
   transition: all 0.7s ease;
   &:hover{
     background-color: var(--purple);
+    cursor: pointer;
     i, p{
       color: var(--black);
     }

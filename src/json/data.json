@@ -1,79 +1,79 @@
 [
-    {
-        "id": 0,
-        "title": "Alura geek",
-        "image": "assets/alurageek.jpg",
-        "link": "https://alurageek-challenge-beta.vercel.app/",
-        "info": "Desafio Front-End 5ª Edição Alura!"
-    },
-    {
-        "id": 1,
-        "title": "Turismo espacial",
-        "image": "assets/space.jpg",
-        "link": "https://space-tourism-multi-page-two.vercel.app/",
-        "info": "Desafio Frontend Mentor de múltiplas páginas usando o react-router-dom!"
-    },
-    {
-        "id": 2,
-        "title": "Rock Paper Scissors Lizard Spock",
-        "image": "assets/rock-paper-scissors.jpg",
-        "link": "https://rock-paper-scissors-smoky-iota.vercel.app/",
-        "info": " Jogo de Rock, Paper, Scissors, Lizard, Spock: desafio do Frontend Mentor!"
-    },
-    {
-        "id": 3,
-        "title": "API Rest de países",
-        "image": "assets/apiCoutries.jpg",
-        "link": "https://rest-countries-api-ten-zeta.vercel.app/",
-        "info": "Desafio Frontend Mentor API Rest de países com seletor de tema de cores!"
-    },
-    {
-        "id": 4,
-        "title": "Calculadora",
-        "image": "assets/calculadora.jpg",
-        "link": "https://calculator-app-eight-jet.vercel.app/",
-        "info": "Calculadora desenvolvida em react e typescript com seletor de tema de cores!"
-    },
-    {
-        "id": 5,
-        "title": "Fylo com tema escuro",
-        "image": "assets/fylo.jpg",
-        "link": "https://fylo-landing-page-chi-ruddy.vercel.app/",
-        "info": "Desafio Frontend Mentor landing page com tema escuro!"
-    },
-    {
-        "id": 6,
-        "title": "Easybank landing page",
-        "image": "assets/easybank.jpg",
-        "link": "https://easy-bank-bice.vercel.app/",
-        "info": "Desafio Frontend Mentor página inicial do Easybank!"
-    },
-    {
-        "id": 7,
-        "title": "Gerador de conselhos",
-        "image": "assets/advice-generator.jpg",
-        "link": "https://mendeseduardo.github.io/Advice_generator_app/",
-        "info": "Desafio Frontend Mentor consumindo uma API geradora de conselhos!"
-    },
-    {
-        "id": 8,
-        "title": "API de encurtamento de URL",
-        "image": "assets/url-shortening-api.jpg",
-        "link": "https://shortly-url-shortening-api-3y6l-f7d2dftlw-mendeseduardo.vercel.app/",
-        "info": "Desafio Frontend Mentor consumindo uma API que encurta links!"
-    },
-    {
-        "id": 9,
-        "title": "NLW 10 Copa",
-        "image": "assets/nlw10copa.jpg",
-        "link": "https://mendeseduardo.github.io/Rocketseat_nlw_copa/",
-        "info": "Nlw Rocketseat calendario de jogos da copa 2022!"
-    },
-    {
-        "id": 10,
-        "title": "Calculadora de gorjetas",
-        "image": "assets/tip-calculator.jpg",
-        "link": "https://mendeseduardo.github.io/Tip-calculator-app/",
-        "info": "Desafio Frontend Mentor Calculando gorjetas!"
-    }
+  {
+    "id": 0,
+    "title": "Alura geek",
+    "image": "assets/alurageek.jpg",
+    "link": "https://alurageek-challenge-beta.vercel.app/",
+    "info": "Desafio Front-End 5ª Edição Alura!"
+  },
+  {
+    "id": 1,
+    "title": "Microo",
+    "image": "assets/microo.png",
+    "link": "https://microo-tailwind.vercel.app",
+    "info": "Site feito em Tailwind para desenvolver minhas habilidade com framework CSS!"
+  },
+  {
+    "id": 2,
+    "title": "Turismo espacial",
+    "image": "assets/space.jpg",
+    "link": "https://space-tourism-multi-page-two.vercel.app/",
+    "info": "Desafio Frontend Mentor de múltiplas páginas usando o react-router-dom!"
+  },
+  {
+    "id": 3,
+    "title": "Rock Paper Scissors Lizard Spock",
+    "image": "assets/rock-paper-scissors.jpg",
+    "link": "https://rock-paper-scissors-smoky-iota.vercel.app/",
+    "info": " Jogo de Rock, Paper, Scissors, Lizard, Spock: desafio do Frontend Mentor!"
+  },
+  {
+    "id": 4,
+    "title": "API Rest de países",
+    "image": "assets/apiCoutries.jpg",
+    "link": "https://rest-countries-api-ten-zeta.vercel.app/",
+    "info": "Desafio Frontend Mentor API Rest de países com seletor de tema de cores!"
+  },
+  {
+    "id": 5,
+    "title": "Calculadora",
+    "image": "assets/calculadora.jpg",
+    "link": "https://calculator-app-eight-jet.vercel.app/",
+    "info": "Calculadora desenvolvida em react e typescript com seletor de tema de cores!"
+  },
+  {
+    "id": 6,
+    "title": "Fylo com tema escuro",
+    "image": "assets/fylo.jpg",
+    "link": "https://fylo-landing-page-chi-ruddy.vercel.app/",
+    "info": "Desafio Frontend Mentor landing page com tema escuro!"
+  },
+  {
+    "id": 7,
+    "title": "Easybank landing page",
+    "image": "assets/easybank.jpg",
+    "link": "https://easy-bank-bice.vercel.app/",
+    "info": "Desafio Frontend Mentor página inicial do Easybank!"
+  },
+  {
+    "id": 8,
+    "title": "Gerador de conselhos",
+    "image": "assets/advice-generator.jpg",
+    "link": "https://mendeseduardo.github.io/Advice_generator_app/",
+    "info": "Desafio Frontend Mentor consumindo uma API geradora de conselhos!"
+  },
+  {
+    "id": 9,
+    "title": "API de encurtamento de URL",
+    "image": "assets/url-shortening-api.jpg",
+    "link": "https://shortly-url-shortening-api-3y6l-f7d2dftlw-mendeseduardo.vercel.app/",
+    "info": "Desafio Frontend Mentor consumindo uma API que encurta links!"
+  },
+  {
+    "id": 10,
+    "title": "Calculadora de gorjetas",
+    "image": "assets/tip-calculator.jpg",
+    "link": "https://mendeseduardo.github.io/Tip-calculator-app/",
+    "info": "Desafio Frontend Mentor Calculando gorjetas!"
+  }
 ]

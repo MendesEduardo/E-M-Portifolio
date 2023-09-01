@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   gap: 2em;
+  padding-bottom: 4em;
   transition: opacity 0.5s ease;
 
   > * {
@@ -13,11 +14,9 @@
     animation-fill-mode: var(--animationMode);
   }
 
-  @for $i from 10 through length(&) {
+  @for $i from 13 through length(&) {
     > *:nth-child(#{$i}) {
-      animation-delay: (
-        0.5s + ($i - 1) * 1s
-      );
+      animation-delay: (0.5s + ($i - 1) * 1s);
     }
   }
 }
